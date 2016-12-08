@@ -3,7 +3,7 @@
 % 各自，Lenna以外の画像を用いよ． 
 % 例
 
-ORG = imread('Lenna.jpg'); % 原画像の入力
+ORG = imread('https://www.pakutaso.com/assets_c/2016/01/BO151030385007-thumb-autox1600-20550.jpg'); % 原画像の入力
 ORG = rgb2gray(ORG); %カラーからグレイへの変換
 imagesc(ORG); colormap('gray'); colorbar;% 画像表示
 pause; % 一時停止
@@ -19,6 +19,7 @@ pause; % 一時停止
 IMG = edge(ORG,'canny'); % エッジ抽出（キャニー法）
 imagesc(IMG); colormap('gray'); colorbar;% 画像表示
 pause; % 一時停止
+
 
 
 
