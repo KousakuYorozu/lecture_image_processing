@@ -1,18 +1,30 @@
-% ‰Û‘è‚S@‰æ‘œ‚ÌƒqƒXƒgƒOƒ‰ƒ€
-% ‰æ‘f‚Ì”Z“xƒqƒXƒgƒOƒ‰ƒ€‚ğ¶¬‚¹‚æD
-% ‰º‹L‚ÍƒTƒ“ƒvƒ‹ƒvƒƒOƒ‰ƒ€‚Å‚ ‚éD
-% ‰Û‘èì¬‚É‚ ‚½‚Á‚Ä‚ÍuLennavˆÈŠO‚Ì‰æ‘œ‚ğ—p‚¢‚æD
+% èª²é¡Œï¼”ã€€ç”»åƒã®ãƒ’ã‚¹ãƒˆã‚°ãƒ©ãƒ 
+% ç”»ç´ ã®æ¿ƒåº¦ãƒ’ã‚¹ãƒˆã‚°ãƒ©ãƒ ã‚’ç”Ÿæˆã›ã‚ˆï¼
+% ä¸‹è¨˜ã¯ã‚µãƒ³ãƒ—ãƒ«ãƒ—ãƒ­ã‚°ãƒ©ãƒ ã§ã‚ã‚‹ï¼
+% èª²é¡Œä½œæˆã«ã‚ãŸã£ã¦ã¯ã€ŒLennaã€ä»¥å¤–ã®ç”»åƒã‚’ç”¨ã„ã‚ˆï¼
 
-clear; % •Ï”‚ÌƒI[ƒ‹ƒNƒŠƒA
-
-ORG=imread('Lenna.png'); % Œ´‰æ‘œ‚Ì“ü—Í
-ORG=rgb2gray(ORG); % ƒJƒ‰[‰æ‘œ‚ğ”’•”Z’W‰æ‘œ‚Ö•ÏŠ·
+clear all ; close all % å¤‰æ•°ã®ã‚ªãƒ¼ãƒ«ã‚¯ãƒªã‚¢
+%ï¼‘æšç›®
+ORG=imread('https://www.pakutaso.com/shared/img/thumb/PAK_traind8421_TP_V.jpg'); % åŸç”»åƒã®å…¥åŠ›
+ORG=rgb2gray(ORG); % ã‚«ãƒ©ãƒ¼ç”»åƒã‚’ç™½é»’æ¿ƒæ·¡ç”»åƒã¸å¤‰æ›
 imagesc(ORG); colormap(gray); colorbar;
 pause;
 
-imhist(ORG); % ƒqƒXƒgƒOƒ‰ƒ€‚Ì•\¦
+figure(1)
+imhist(ORG); % ãƒ’ã‚¹ãƒˆã‚°ãƒ©ãƒ ã®è¡¨ç¤º
+grid on
+hold on
+%ï¼’æšç›®
+ORG=imread('https://www.pakutaso.com/shared/img/thumb/LISA141018447320_TP_V.jpg'); % åŸç”»åƒã®å…¥åŠ›
+ORG=rgb2gray(ORG); % ã‚«ãƒ©ãƒ¼ç”»åƒã‚’ç™½é»’æ¿ƒæ·¡ç”»åƒã¸å¤‰æ›
+imagesc(ORG); colormap(gray); colorbar;
+pause;
 
+figure(2)
+imhist(ORG); % ãƒ’ã‚¹ãƒˆã‚°ãƒ©ãƒ ã®è¡¨ç¤º
+grid on
+hold on
 
-
-
+%è€ƒå¯Ÿ
+%ï¼’æšã®å†™çœŸã¯å·¦å³å¯¾ç§°çš„ãªãƒ’ã‚¹ãƒˆã‚°ãƒ©ãƒ ã§ã‚ã‚‹ã“ã¨ãŒèª­ã¿å–ã‚Œã‚‹ã€‚
 
